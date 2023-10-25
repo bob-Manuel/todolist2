@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./todo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <div class="to-do-app">
+        <h2>TO-DO LIST <i class="bi bi-card-checklist"></i></h2>
+        <!-- task adder -->
+        <div class="new-task">
+          <input id="input-box" type="text" placeholder="Add a New Task" />
+          <button onclick="addTask()">
+            <i class="bi bi-plus-square-fill"></i>
+          </button>
+        </div>
+        <!-- task container -->
+        <ul id="task-container">
+          <!-- checked -->
+          <!-- <li class="checked">
+            Tasks <b><i class="bi bi-check-circle-fill"></i></b>
+            <span><i class="bi bi-trash3"></i></span>
+          </li>
+          <li>
+            Tasks <span><i class="bi bi-trash3"></i></span>
+          </li>
+          <li>
+            Tasks <span><i class="bi bi-trash3"></i></span>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
